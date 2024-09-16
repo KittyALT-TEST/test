@@ -1,0 +1,461 @@
+-- Objects;s
+
+local asd = Instance.new("ScreenGui")
+local Hax = Instance.new("Frame")
+local Line = Instance.new("Frame")
+local Frame = Instance.new("Frame")
+local dankity = Instance.new("TextLabel")
+local Block = Instance.new("TextButton")
+local Bomb = Instance.new("TextButton")
+local Hat = Instance.new("TextButton")
+local Ball = Instance.new("TextButton")
+local Ovens = Instance.new("TextButton")
+local Gear = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local Thotify = Instance.new("TextButton")
+local Thotify2 = Instance.new("TextButton")
+local Ball_2 = Instance.new("TextButton")
+local Rainbowify = Instance.new("TextButton")
+local Hammer = Instance.new("TextButton")
+
+-- Properties
+
+asd.Name = "asd"
+asd.Parent = game.CoreGui
+
+Hax.Name = "Hax"
+Hax.Parent = asd
+Hax.Active = true
+Hax.Selectable = true
+Hax.BackgroundColor3 = Color3.new(1, 1, 1)
+Hax.BackgroundTransparency = 0.1
+Hax.BorderSizePixel = 0
+Hax.Draggable = true
+Hax.Position = UDim2.new(0.32188201, 0, 0.295843512, 0)
+Hax.Size = UDim2.new(0, 477, 0, 369)
+
+Line.Name = "Line"
+Line.Parent = Hax
+Line.BackgroundColor3 = Color3.new(0.694118, 0.647059, 0)
+Line.BorderSizePixel = 0
+Line.Size = UDim2.new(0, 477, 0, 10)
+
+Frame.Parent = Hax
+Frame.BackgroundColor3 = Color3.new(0.85098, 0.780392, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.0272300914, 0)
+Frame.Size = UDim2.new(0, 477, 0, 61)
+
+dankity.Name = "dankity"
+dankity.Parent = Hax
+dankity.BackgroundColor3 = Color3.new(1, 1, 1)
+dankity.BackgroundTransparency = 1
+dankity.BorderSizePixel = 0
+dankity.Position = UDim2.new(0.207547188, 0, 0.0654405504, 0)
+dankity.Size = UDim2.new(0, 278, 0, 38)
+dankity.Font = Enum.Font.Highway
+dankity.Text = "Game F*cker"
+dankity.TextSize = 30
+
+Block.Name = "Block"
+Block.Parent = Hax
+Block.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Block.BorderSizePixel = 0
+Block.Position = UDim2.new(0.0188679248, 0, 0.415221781, 0)
+Block.Size = UDim2.new(0, 148, 0, 43)
+Block.Font = Enum.Font.Highway
+Block.Text = "Block Spam"
+Block.TextColor3 = Color3.new(0, 0, 0)
+Block.TextSize = 16
+
+Bomb.Name = "Bomb"
+Bomb.Parent = Hax
+Bomb.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Bomb.BorderSizePixel = 0
+Bomb.Position = UDim2.new(0.34591195, 0, 0.415385842, 0)
+Bomb.Size = UDim2.new(0, 148, 0, 43)
+Bomb.Font = Enum.Font.Highway
+Bomb.Text = "Bomb Vest"
+Bomb.TextColor3 = Color3.new(0, 0, 0)
+Bomb.TextSize = 16
+
+Hat.Name = "Hat"
+Hat.Parent = Hax
+Hat.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Hat.BorderSizePixel = 0
+Hat.Position = UDim2.new(0.670859516, 0, 0.415221721, 0)
+Hat.Size = UDim2.new(0, 148, 0, 43)
+Hat.Font = Enum.Font.Highway
+Hat.Text = "Hat Spam"
+Hat.TextColor3 = Color3.new(0, 0, 0)
+Hat.TextSize = 16
+
+Ball.Name = "Ball"
+Ball.Parent = Hax
+Ball.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Ball.BorderSizePixel = 0
+Ball.Position = UDim2.new(0.0188679248, 0, 0.558427572, 0)
+Ball.Size = UDim2.new(0, 148, 0, 43)
+Ball.Font = Enum.Font.Highway
+Ball.Text = "Ball Spam"
+Ball.TextColor3 = Color3.new(0, 0, 0)
+Ball.TextSize = 16
+
+Ovens.Name = "Ovens"
+Ovens.Parent = Hax
+Ovens.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Ovens.BorderSizePixel = 0
+Ovens.Position = UDim2.new(0.344863713, 0, 0.55737859, 0)
+Ovens.Size = UDim2.new(0, 148, 0, 43)
+Ovens.Font = Enum.Font.Highway
+Ovens.Text = "Fuck Ovens"
+Ovens.TextColor3 = Color3.new(0, 0, 0)
+Ovens.TextSize = 16
+
+Gear.Name = "Gear"
+Gear.Parent = Hax
+Gear.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Gear.BorderSizePixel = 0
+Gear.Position = UDim2.new(0.670859575, 0, 0.55737859, 0)
+Gear.Size = UDim2.new(0, 148, 0, 43)
+Gear.Font = Enum.Font.Highway
+Gear.Text = "Gear"
+Gear.TextColor3 = Color3.new(0, 0, 0)
+Gear.TextSize = 16
+
+TextBox.Parent = Hax
+TextBox.BackgroundColor3 = Color3.new(0.615686, 0.615686, 0.615686)
+TextBox.BackgroundTransparency = 0.55000001192093
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.0188679248, 0, 0.235867977, 0)
+TextBox.Size = UDim2.new(0, 459, 0, 52)
+TextBox.Font = Enum.Font.Highway
+TextBox.Text = "Hat/Asset ID"
+TextBox.TextSize = 25
+
+Thotify.Name = "Thotify"
+Thotify.Parent = Hax
+Thotify.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Thotify.BorderSizePixel = 0
+Thotify.Position = UDim2.new(0.0188679248, 0, 0.697288036, 0)
+Thotify.Size = UDim2.new(0, 148, 0, 43)
+Thotify.Font = Enum.Font.Highway
+Thotify.Text = "Thotify"
+Thotify.TextColor3 = Color3.new(0, 0, 0)
+Thotify.TextSize = 16
+
+Thotify2.Name = "Thotify2"
+Thotify2.Parent = Hax
+Thotify2.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Thotify2.BorderSizePixel = 0
+Thotify2.Position = UDim2.new(0.34591195, 0, 0.697288036, 0)
+Thotify2.Size = UDim2.new(0, 148, 0, 43)
+Thotify2.Font = Enum.Font.Highway
+Thotify2.Text = "Thotify v2"
+Thotify2.TextColor3 = Color3.new(0, 0, 0)
+Thotify2.TextSize = 16
+
+Ball_2.Name = "Cryify"
+Ball_2.Parent = Hax
+Ball_2.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Ball_2.BorderSizePixel = 0
+Ball_2.Position = UDim2.new(0.670859575, 0, 0.697288036, 0)
+Ball_2.Size = UDim2.new(0, 148, 0, 43)
+Ball_2.Font = Enum.Font.Highway
+Ball_2.Text = "Cryify"
+Ball_2.TextColor3 = Color3.new(0, 0, 0)
+Ball_2.TextSize = 16
+
+Rainbowify.Name = "Rainbowify"
+Rainbowify.Parent = Hax
+Rainbowify.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Rainbowify.BorderSizePixel = 0
+Rainbowify.Position = UDim2.new(0.169811323, 0, 0.830079317, 0)
+Rainbowify.Size = UDim2.new(0, 148, 0, 43)
+Rainbowify.Font = Enum.Font.Highway
+Rainbowify.Text = "Rainbowify"
+Rainbowify.TextColor3 = Color3.new(0, 0, 0)
+Rainbowify.TextSize = 16
+
+Hammer.Name = "Hammer"
+Hammer.Parent = Hax
+Hammer.BackgroundColor3 = Color3.new(0.866667, 0.768628, 0.207843)
+Hammer.BorderSizePixel = 0
+Hammer.Position = UDim2.new(0.494758934, 0, 0.830079317, 0)
+Hammer.Size = UDim2.new(0, 148, 0, 43)
+Hammer.Font = Enum.Font.Highway
+Hammer.Text = "Hammer 101"
+Hammer.TextColor3 = Color3.new(0, 0, 0)
+Hammer.TextSize = 16
+
+function GetPlayer(String)
+  local Found = {}
+  local strl = String:lower()
+  if strl == "all" then
+      for i,v in pairs(game.Players:GetPlayers()) do
+          table.insert(Found,v)
+      end
+  elseif strl == "others" then
+      for i,v in pairs(game.Players:GetPlayers()) do
+          if v.Name ~= game.Players.LocalPlayer.Name then
+              table.insert(Found,v)
+          end
+      end    
+  else
+      for i,v in pairs(game.Players:GetPlayers()) do
+          if v.Name:lower():sub(1, #String) == String:lower() then
+              table.insert(Found,v)
+          end
+      end    
+  end
+  return Found    
+end
+
+--for i,v in pairs(GetPlayer(Username.Text))do
+
+Block.MouseButton1Click:Connect(function()
+for i=1,100 do
+local A_1 = "LoadAvatarAsset"
+local A_2 = 140469731
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2)
+wait(0.25)
+wait(0.25)
+for index, child in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if child.ClassName == "Hat" or child.ClassName == "Accessory" then
+if child.Handle:FindFirstChild("Mesh") then
+child.Handle.Mesh.Parent = nil
+child.Parent = game.Workspace
+end
+end
+end
+end
+end)
+
+Bomb.MouseButton1Click:Connect(function()
+local A_1 = "LoadAvatarAsset"
+local A_2 = "001527622"
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2)
+local plr = game.Players.LocalPlayer
+while not plr.Character do wait() end
+local character = plr.Character
+
+local gay = game:GetService("RunService")
+gay.RenderStepped:connect(function()
+  for _,h in pairs(character:GetChildren()) do
+      if h:IsA("Accoutrement") then
+          h.Handle.LocalTransparencyModifier = 1
+      end
+  end
+end)
+wait()
+local Me = game:GetService("Players").LocalPlayer
+local Char = Me.Character
+local Torso = Char.Torso
+local TickWait = 1
+local Color = "Medium stone gray"
+local Dead = false
+
+
+local Position = Vector3.new(0,100,0)
+function NewPart(Parent)
+local Part = Instance.new("Part", Parent)
+Part.CanCollide = false
+Part.FormFactor = "Custom"
+Part.Position = Position
+Part.TopSurface = "Smooth"
+Part.BottomSurface = "Smooth"
+Part.BrickColor = BrickColor.new(Color)
+Position = Position + Vector3.new(0,Part.Size.Y + 10,0)
+return Part
+end
+
+local Model = Char:FindFirstChild("Bomb")
+if Model then Model:Destroy() end
+
+Model = Instance.new("Model", Char)
+Model.Name = "Bomb"
+
+local Belt = NewPart(Model)
+Belt.Size = Vector3.new(2.2,0.5,1.2)
+local Weld = Instance.new("Weld", Belt)
+Weld.Part0 = Belt
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0,1.1,0)
+local Light = Instance.new("PointLight", Belt)
+Light.Range = 15
+Light.Brightness = 5
+Light.Color = Color3.new(1,0,0)
+local Beep = Instance.new("Sound", Belt)
+Beep.SoundId = "http://www.roblox.com/asset/?id=188588790"
+local ExplodeSound = Instance.new("Sound", Belt)
+ExplodeSound.SoundId = "http://www.roblox.com/asset/?id="..(tonumber((math.ceil(1776.66^2)+17).."."..string.rep("36",3))*77)+0.00003 --144507765
+ExplodeSound.Pitch = 2.8
+ExplodeSound.Volume = 3
+
+local Back = NewPart(Model)
+Back.Size = Vector3.new(1.5,1.5,0.5)
+local Weld = Instance.new("Weld", Back)
+Weld.Part0 = Back
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0,0.1,-0.75)
+
+local StrapLeft = NewPart(Model)
+StrapLeft.Size = Vector3.new(0.2,0.5,1.6)
+local Weld = Instance.new("Weld", StrapLeft)
+Weld.Part0 = StrapLeft
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0.65,-0.9,-0.2)
+
+local BuckleLeft = NewPart(Model)
+BuckleLeft.Size = Vector3.new(0.2,1.5,0.2)
+local Weld = Instance.new("Weld", BuckleLeft)
+Weld.Part0 = BuckleLeft
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(0.65,0.1,0.5)
+
+local StrapRight = NewPart(Model)
+StrapRight.Size = Vector3.new(0.2,0.5,1.6)
+local Weld = Instance.new("Weld", StrapRight)
+Weld.Part0 = StrapRight
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(-0.65,-0.9,-0.2)
+
+local BuckleRight = NewPart(Model)
+BuckleRight.Size = Vector3.new(0.2,1.5,0.2)
+local Weld = Instance.new("Weld", BuckleRight)
+Weld.Part0 = BuckleRight
+Weld.Part1 = Torso
+Weld.C0 = CFrame.new(-0.65,0.1,0.5)
+
+Tool.Selected:connect(function(Mouse)
+TickWait = 0.3
+Mouse.Icon = "http://www.roblox.com/asset/?id=9109985"
+
+Mouse.Button1Down:connect(function()
+if Dead == false then
+Dead = true
+ExplodeSound:Play()
+wait(1.4)
+local Explosion = Instance.new("Explosion", Workspace)
+Explosion.Position = Belt.Position
+Explosion.BlastPressure = 100000
+Explosion.DestroyJointRadiusPercent = 0.7
+Explosion.ExplosionType = "CratersAndDebris"
+Explosion.BlastRadius = 50
+Explosion.Hit:connect(function(Part, Distance)
+Part.Anchored = false
+if Distance <= 10 then
+Part:BreakJoints()
+end
+end)
+end
+end)
+end)
+
+Tool.Deselected:connect(function()
+TickWait = 1
+end)
+
+coroutine.wrap(function()
+repeat
+wait(TickWait)
+Light.Enabled = not Light.Enabled
+Beep:Play()
+until Dead == true
+end)()
+end)
+
+Hat.MouseButton1Click:Connect(function()
+for i=1,100 do
+local A_1 = "LoadAvatarAsset"
+local A_2 = TextBox.Text
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2)
+wait(0.1)
+wait(0.1)
+for index, child in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if child.ClassName == "Hat" or child.ClassName == "Accessory" then
+if child.Handle:FindFirstChild("Mesh") then
+child.Parent = game.Workspace
+end
+end
+end
+end
+end) 
+
+Ball.MouseButton1Click:Connect(function()
+for i=1,100 do
+local A_1 = "LoadAvatarAsset"
+local A_2 = "1158416"
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2)
+wait(0.1)
+wait(0.1)
+for index, child in pairs(game.Players.LocalPlayer.Character:GetChildren()) do
+if child.ClassName == "Hat" or child.ClassName == "Accessory" then
+if child.Handle:FindFirstChild("Mesh") then
+child.Handle.Mesh.Parent = nil
+child.Parent = game.Workspace
+end
+end
+end
+end
+end)
+
+Ovens.MouseButton1Click:Connect(function()
+while wait() do
+for i, Oven in pairs(workspace.Ovens:GetChildren()) do
+Oven.Door.ClickDetector.Detector:FireServer()
+end
+end
+end)
+
+Gear.MouseButton1Click:Connect(function()
+local A_1 = "GiveItem"
+local A_2 = TextBox.Text
+local A_3 = true
+local A_4 = false
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2, A_3, A_4)
+end)
+
+Ball_2.MouseButton1Click:Connect(function()
+local Target = TextBox.Text
+local A_1 = game:GetService("Players")[Target].Character.Head.face
+local A_2 = "rbxassetid://76690153"
+local Event = game:GetService("Workspace").Main.ChangeFace
+Event:FireServer(A_1, A_2)
+end)
+
+Thotify.MouseButton1Click:Connect(function()
+local Target = TextBox.Text
+local A_1 = game:GetService("Players")[Target].Character.Head.face
+local A_2 = "rbxassetid://902903108"
+local Event = game:GetService("Workspace").Main.ChangeFace
+Event:FireServer(A_1, A_2)
+end)
+
+Rainbowify.MouseButton1Click:Connect(function()
+local Target = TextBox.Text
+local A_1 = game:GetService("Players")[Target].Character.Head.face
+local A_2 = "rbxassetid://574158389"
+local Event = game:GetService("Workspace").Main.ChangeFace
+Event:FireServer(A_1, A_2)
+end)
+
+Thotify2.MouseButton1Click:Connect(function()
+local Target = TextBox.Text
+local A_1 = game:GetService("Players")[Target].Character.Head.face
+local A_2 = "rbxassetid://806798484"
+local Event = game:GetService("Workspace").Main.ChangeFace
+Event:FireServer(A_1, A_2)
+end)
+
+Hammer.MouseButton1Click:Connect(function()
+local A_1 = "LoadAvatarAsset"
+local A_2 = "1055299"
+local Event = game:GetService("ReplicatedStorage").Channels.PlayerChannel
+Event:FireServer(A_1, A_2)
+end)
